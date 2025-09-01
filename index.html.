@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+   <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width,initial-scale=1" />
+      <title>EXPO PT — Layout 0</title>
+      <link rel="stylesheet" href="style.css" />
+   </head>
+   <body>
+      <header class="site-header">
+         <div class="container">
+            <h1>Gelerias</h1>
+            <nav><a href="../site-principal-exemplo/index.html">← Página Principal</a></nav>
+         </div>
+      </header>
+      <main class="site-main">
+         <div class="container">
+            <section id="intro" class="bloco">
+               <h2>Derretimento acelerado em Pratimônios mundiais</h2>
+               <p>
+                 O derretimento acelerado das geleiras e calotas polares, impulsionado pelas mudanças climáticas, ameaça vários patrimônios mundiais naturais e culturais. Isso inclui a perda de biodiversidade, o aumento do nível do mar e a destruição de habitats únicos. Locais como a Antártica, Groenlândia e parques de montanha estão entre os mais afetados. Esse fenômeno também compromete recursos hídricos vitais e pode resultar em extinções locais. Ações globais, como a redução das emissões de gases de efeito estufa, são essenciais para mitigar esses impactos.
+               </p>
+            </section>
+            <hr>
+            <section id="convite-sala" class="bloco destaque">
+               <h2>Visite a sala do 1° Relugar e conheça o projeto deste tema</h2>
+               <div class="convite">
+                  <div class="convite-texto">
+                     <p>
+                        Você é nosso convidado para conhecer o espaço do <strong>1° REGULAR</strong> sobre derretimenro acelerado das geleiras!
+                        Explore uma teia alimentar interativa, compare antes/depois de áreas com gelo e veja como pequenas mudanças
+                        afetam toda a vida do Ártico e Antártica.
+                     </p>
+                     <div class="projeto-sala">
+                        <h3>Sobre o projeto da sala</h3>
+                        <p>
+                            (Reservado) Apresentaremos uma linha do tempo visual com a relação entre o derretimento das geleiras, os ecossistemas polares e as espécies afetadas, incluindo o impacto nas aves marinhas e na fauna gelada. Além disso, serão exibidas maquetes simples ilustrando as cadeias alimentares polares e como o derretimento altera esse equilíbrio ecológico. Este texto será atualizado com os detalhes finais próximos ao evento.
+                        </p>
+                     </div>
+                  </div>
+                  <figure class="foto-turma">
+                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8kYHhOQPbPGbrBWaCtf1U0_3KbDtfy51K7Q&s" alt="Foto da turma 2EM A/B responsável pelo subtema de biodiversidade">
+                  </figure>
+               </div>
+            </section>
+            <hr>
+            <section id="curiosidades" class="bloco">
+               <h2>Linha do Tempo e Quiz</h2>
+               <div class="cards">
+                  <article class="card">
+                     <h3>Linha do tempo</h3>
+                     <p>
+                        Aqui na linha do tempo é possível analisar do início até a situação atual das geleiras e das atuais organizações que mais ajudam na questão do derretimento das geleiras.
+                     </p>
+                  </article>
+                 <figure class="foto-gráfico">
+                     <img src="https://www.researchgate.net/profile/Janaina-Mello/publication/362745817/figure/fig1/AS:11431281079582568@1660751778030/Figura-02-Linha-do-tempo-de-acoes-da-UNESCO.ppm">
+                  </figure>
+                  <article class="card">
+                     <h3>Quiz</h3>
+                     <form class="quiz-container">
+                        <p class="quiz-question">1) Qual é uma das principais consequências do derretimento acelerado das geleiras?</p>
+                        <label><input type="radio" name="q1"> Aumento do nível do mar</label><br>
+                        <label><input type="radio" name="q1"> Diminuição da poluição</label><br>
+                        <label><input type="radio" name="q1"> Mais terras agricultáveis</label><br>
+                        <label><input type="radio" name="q1"> Fortalecimento das calotas</label>
+
+                        <p class="quiz-question">2) Quais regiões são mais afetadas pelo derretimento acelerado?</p>
+                        <label><input type="radio" name="q2"> Antártica e Groenlândia</label><br>
+                        <label><input type="radio" name="q2"> Saara e Amazônia</label><br>
+                        <label><input type="radio" name="q2"> Patagônia e Himalaia</label><br>
+                        <label><input type="radio" name="q2"> Andes e Alpes</label>
+
+                        <p class="quiz-question">3) O derretimento das geleiras pode afetar:</p>
+                        <label><input type="radio" name="q3"> Recursos hídricos</label><br>
+                        <label><input type="radio" name="q3"> Biodiversidade</label><br>
+                        <label><input type="radio" name="q3"> Cidades costeiras</label><br>
+                        <label><input type="radio" name="q3"> Todas as alternativas</label>
+                     </form>
+                     <div class="quiz-result">
+                        <p><strong>Gabarito:</strong></p>
+                        <ol>
+                           <li>Aumento do nível do mar</li>
+                           <li>Antártica e Groenlândia</li>
+                           <li>Todas as alternativas</li>
+                        </ol>
+                     </div>
+                  </article>
+               </div>
+            </section>
+         </div>
+      </main>
+      <footer class="site-footer">
+         <div class="container">
+            <small>© 2025 Gabriel.Z </small>
+         </div>
+      </footer>
+   </body>
+</html>
